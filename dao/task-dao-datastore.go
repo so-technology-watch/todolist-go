@@ -4,7 +4,7 @@ import (
 	"errors"
 	"strconv"
 
-	"github.com/so-technology-watch/todolist-go/model"
+	"github.com/so-technology-watch/todolist-go-back/model"
 
 	"cloud.google.com/go/datastore"
 	"golang.org/x/net/context"

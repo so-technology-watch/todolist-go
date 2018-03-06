@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/so-technology-watch/todolist-go/dao"
-	"github.com/so-technology-watch/todolist-go/logger"
-	"github.com/so-technology-watch/todolist-go/web"
+	"github.com/so-technology-watch/todolist-go-back/dao"
+	"github.com/so-technology-watch/todolist-go-back/logger"
+	"github.com/so-technology-watch/todolist-go-back/web"
 
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/negroni"

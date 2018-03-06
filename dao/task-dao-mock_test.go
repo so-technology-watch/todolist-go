@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/satori/go.uuid"
-	"github.com/so-technology-watch/todolist-go/dao"
-	"github.com/so-technology-watch/todolist-go/model"
+	"github.com/so-technology-watch/todolist-go-back/dao"
+	"github.com/so-technology-watch/todolist-go-back/model"
 )
 
 func TestTaskDAOMock(t *testing.T) {

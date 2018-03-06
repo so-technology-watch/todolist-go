@@ -1,7 +1,7 @@
 package dao
 
 import (
-	"github.com/so-technology-watch/todolist-go/model"
+	"github.com/so-technology-watch/todolist-go-back/model"
 )
 
 // TaskDAO is the interface for Task

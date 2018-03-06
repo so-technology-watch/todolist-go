@@ -3,9 +3,7 @@ package dao
 import (
 	"errors"
 
-	"github.com/so-technology-watch/todolist-go/model"
-
-	"github.com/satori/go.uuid"
+	"github.com/so-technology-watch/todolist-go-back/model"
 )
 
 var _ TaskDAO = (*TaskDAOMock)(nil)

@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/so-technology-watch/todolist-go/dao"
-	"github.com/so-technology-watch/todolist-go/model"
+	"github.com/so-technology-watch/todolist-go-back/dao"
+	"github.com/so-technology-watch/todolist-go-back/model"
 
 	"github.com/sirupsen/logrus"
 )
