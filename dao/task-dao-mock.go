@@ -3,6 +3,7 @@ package dao
 import (
 	"errors"
 
+	"github.com/satori/go.uuid"
 	"github.com/so-technology-watch/todolist-go-back/model"
 )
 

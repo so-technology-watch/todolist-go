@@ -44,12 +44,6 @@
   version = "v1.0.3"
 
 [[projects]]
-  branch = "master"
-  name = "github.com/so-technology-watch/todolist-go"
-  packages = ["dao","logger","model","web"]
-  revision = "c39835da1c4f79526af47a476bc384f10a985b66"
-
-[[projects]]
   name = "github.com/urfave/negroni"
   packages = ["."]
   revision = "5dbbc83f748fc3ad38585842b0aedab546d0ea1e"
@@ -118,6 +112,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "c3b81bf881a128dbb7d63463df4a76585757883b4c765aac70986add59c96ff7"
+  inputs-digest = "e5aa33aee37891a74198fbfaefdb31237435f928db605176c17282e89b27a0a6"
   solver-name = "gps-cdcl"
   solver-version = 1
