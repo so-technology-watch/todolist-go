@@ -16,7 +16,7 @@ const (
 	MockDAO
 
 	AppName   = "Todolist"
-	projectId = "go-back-sample"
+	projectId = "todolist-go-back"
 )
 
 var (
