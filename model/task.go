@@ -12,6 +12,8 @@ const (
 	StatusTodo TaskStatus = iota
 	StatusInProgress
 	StatusDone
+	StatusArchived
+	StatusTrashed
 )
 
 // Task structure of a task
