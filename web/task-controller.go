@@ -110,7 +110,7 @@ func (ctrl *TaskController) GetTask(w http.ResponseWriter, r *http.Request) {
 // CreateTask create a task
 func (ctrl *TaskController) CreateTask(w http.ResponseWriter, r *http.Request) {
 	task := &model.Task{}
-	task.Status = 1
+	task.Status = model.StatusTodo
 	logrus.Println(r.Body)
 	err := GetJSONContent(task, r)
 	if err != nil {
