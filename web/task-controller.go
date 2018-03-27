@@ -123,7 +123,6 @@ func (ctrl *TaskController) CreateTask(w http.ResponseWriter, r *http.Request) {
 
 	task.CreationDate = time.Now()
 	task.ModificationDate = time.Now()
-	task.Status = 1
 
 	task, err = ctrl.taskDao.Upsert(task)
 	if err != nil {
