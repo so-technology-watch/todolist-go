@@ -11,7 +11,7 @@ var _ TaskDAO = (*TaskDAOMock)(nil)
 
 // MockedTask is the task returned by this mocked interface
 var MockedTask = model.Task{
-	Id:          uuid.NewV4().String(),
+	Id:          uuid.Must(uuid.NewV4()).String(),
 	Title:       "TestMock",
 	Description: "TestMock",
 }
@@ -55,7 +55,7 @@ func (dao *TaskDAOMock) GetAll() ([]model.Task, error) {
 // Upsert update or create a task
 func (dao *TaskDAOMock) Upsert(task *model.Task) (*model.Task, error) {
 	if task.Id == "" {
-		task.Id = uuid.NewV4().String()
+		task.Id = uuid.Must(uuid.NewV4()).String()
 	}
 	dao.save(task)
 	return task, nil
